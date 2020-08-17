@@ -70,7 +70,10 @@ html, body {
     width: 65%;
     align-items: center;
     padding-top: 2%;
-    
+}
+header nav a {
+    text-decoration: none;
+    color: black;
 }
 
 .lambda-logo img {
@@ -78,7 +81,8 @@ html, body {
 }
 
 header {
-    width: 1000px;
+    width: 800px;
+    margin: 0 auto;
 }
 
  .header-img {
@@ -227,7 +231,6 @@ footer nav a {
 .about-us {
     display: flex;
     flex-flow: row wrap;
-    padding: 1%;
     border: 1px hidden;
 }
 hr {
@@ -238,7 +241,7 @@ hr {
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding: 5%;
+    padding: 2%;
 }
 
 button {
@@ -247,6 +250,7 @@ button {
     margin: 2% 0;
     background: white;
     border-radius: 5px;
+    font-size: .75rem;
 }
 
 h3 {
