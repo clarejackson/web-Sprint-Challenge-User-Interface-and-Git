@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 1rem;
 }
 
 .container {
@@ -215,6 +216,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-top: 2%;
 }
 
 footer nav a {
@@ -225,8 +227,28 @@ footer nav a {
 .about-us {
     display: flex;
     flex-flow: row wrap;
-    padding: 5%;
+    padding: 1%;
+    border: 1px hidden;
 }
 hr {
     margin: 2%
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5%;
+}
+
+button {
+    width: 25%;
+    padding: 1%;
+    margin: 2% 0;
+    background: white;
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 2% 0;
 }
