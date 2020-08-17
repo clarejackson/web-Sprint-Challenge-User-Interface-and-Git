@@ -221,3 +221,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-us {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5%;
+}
+hr {
+    margin: 2%
+}
